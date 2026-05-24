@@ -39,11 +39,13 @@ graph LR
 
 ## 项目总览
 
+以下是 StarBlog 生态中的核心开源项目：
+
 | 项目 | 说明 | 语言 | Stars |
 | :--- | :--- | :--- | :--- |
 | [**StarBlog (主系统)**](https://github.com/Deali-Axy/StarBlog) | 生态核心，基于 ASP.NET Core 的现代化博客引擎。 | C# | — |
 | [**starblog-publisher**](https://github.com/star-blog/starblog-publisher) | 跨平台 AI 驱动的 Markdown 文章发布工具。 | C# | ⭐ 26 |
-| [**Admin-React**](https://github.com/star-blog/Admin-React) | 基于 React 的博客内容管理后台。 | TypeScript | — |
+| [**Admin-React**](https://github.com/star-blog/Admin-React) | 基于 React 和 Ant Design Pro 的博客管理后台。 | TypeScript | — |
 
 ---
 
@@ -62,17 +64,19 @@ graph LR
 
 ### Admin-React（管理后台）
 一个清晰、现代的博客管理界面，用于对文章、分类、标签等数据进行可视化操作与管理。
+- **开箱即用**：基于成熟的 [Ant Design Pro](https://pro.ant.design/) 模板初始化，提供标准化的前端项目结构和组件。
+- **高效开发**：支持 `npm start` 等便捷脚本，加速开发与调试流程。
 
 ---
 
-## 技术栈
+## 技术栈概览
 
 | 层级 | 技术选型 |
 | :--- | :--- |
 | **博客系统** | ASP.NET Core / C# |
 | **发布工具** | .NET 8 + Avalonia UI (AOT) |
 | **管理后台** | React + Ant Design Pro |
-| **AI 集成** | Microsoft.Extensions.AI |
+| **AI 集成** | 支持主流大模型 API (ChatGPT, Claude, Gemini, DeepSeek 等) |
 
 ---
 
